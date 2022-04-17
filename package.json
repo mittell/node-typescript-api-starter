@@ -9,7 +9,7 @@
 		"fix": "npm run lint -- --fix",
 		"format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
 		"build": "tsc",
-		"dev": "ts-node-dev --respawn ./src/index.ts",
+		"dev": "ts-node-dev --respawn ./src/app.ts",
 		"start": "tsc && node --unhandled-rejections=strict ./dist/app.js"
 	},
 	"repository": {
