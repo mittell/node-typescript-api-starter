@@ -1,0 +1,24 @@
+{
+  "name": "typescript-api-starter",
+  "version": "1.0.0",
+  "description": "Starter Repo for an API written in Node and TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mittell/node-typescript-api-starter.git"
+  },
+  "author": "Chris Mittell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mittell/node-typescript-api-starter/issues"
+  },
+  "homepage": "https://github.com/mittell/node-typescript-api-starter#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.3",
+    "@commitlint/config-conventional": "^16.2.1",
+    "husky": "^7.0.4"
+  }
+}
